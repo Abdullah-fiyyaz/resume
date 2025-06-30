@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <meta name="description" content="making first ever portfolio using html">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+            color: #333;
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        hr {
+            border: 1px solid #eee;
+            margin: 20px 0;
+        }
+
+        footer {
+            background: #2C3E50;
+            color: white;
+        }
+
+        header {
+            padding: 8px 0px;
+            background: #2C3E50;
+            color: white;
+            text-align: center;
+
+        }
+
+        main {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            justify-content: center;
+            padding: 30px;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        main article {
+            text-align: center;
+            margin: 25px;
+        }
+
+        .img {
+            display: flex;
+            justify-content: center;
+        }
+
+        .img {
+            /* display: flex; */
+            /* box-shadow: 0 0 15px rgb(0, 0, 0, 0.1); */
+            box-shadow: 0 0 15px rgb(0, 0, 0, 0.1);
+            border-radius: 23px;
+            /* justify-content: center; */
+        }
+
+        h2 {
+            color: #18BC9C;
+        }
+
+        footer {
+            background: #2C3E50;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding: 4px;
+            font-size: 19px;
+        }
+
+        form {
+
+             background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        label {
+            display: block;
+            padding: 12px 0px;
+            font-size: px;
+        }
+
+        input,
+        textarea {
+            width: 40rem;
+            height: 1.5rem;
+            border-radius: 7px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border: none;
+        }
+
+        #button {
+             background-color: #18BC9C;
+            color: white;
+            margin: 25px 0px 0px 0px;
+            width: 73px;
+            height: 33px;
+            border-radius: 37px;
+            cursor: pointer;
+            border: none;
+        }
+        #button:hover {
+             background-color: #149a82;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>ABDULLAH SHEIKH</h1>
+    </header>
+    <main>
+        <article>
+            <p>"Working part-time as a cashier at the Piggly Wiggly has given me a great opportunity to observe human
+                behavior... three distinct types of abnormal customer: the
+                amnesiac, the super shopper, and the dawdler."</p>
+        </article>
+        <hr>
+        <div class="img">
+            <img src="https://resizing.flixster.com/EVRdDY4E9llWcERw2g-AN1oS04U=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/1148978_v9_ba.jpg"
+                alt="My Image" width="400px">
+        </div>
+        <div class="hobby">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>singing</li>
+                <li>designing</li>
+                <li>volleyball</li>
+                <li>fashion and arts</li>
+                <li>baking</li>
+                <li>reading</li>
+            </ul>
+        </div>
+        <section>
+            <h2>Goals</h2>
+            <p>For those who are looking for a difficult writing challenge, the random paragraph generator can provide
+                that as well...</p>
+            <p>The best way to use these random paragraphs is to generate a few and see how they can help...</p>
+            <p>We're always seeking constructive ideas on how we can improve our random paragraph generator...</p>
+        </section>
+
+        <section>
+            <h2>Contact me</h2>
+           <form action="https://formsubmit.co/fayyazabdullah704@gmail.com" method="POST">
+            <input type="hidden" name="_next" value="thankyou.html">
+
+
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message"></textarea>
+
+                <button type="submit" id="button">send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>For More Query | fayyazabdullah704@gmail.com</p>
+    </footer>
+</body>
+
+</html>

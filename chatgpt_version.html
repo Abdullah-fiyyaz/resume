@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <meta name="description" content="making first ever portfolio using html">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            padding: 15px 0;
+            background: #2C3E50;
+            color: white;
+            text-align: center;
+        }
+
+        main {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+            padding: 30px;
+            max-width: 700px;
+            margin: auto;
+            background: white;
+        }
+
+        main article {
+            text-align: center;
+            margin: 25px;
+        }
+
+        .img {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        img {
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #18BC9C;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            background: #2C3E50;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 18px;
+        }
+
+        section p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid #eee;
+            margin: 30px 0;
+        }
+
+        form {
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #18BC9C;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #149a82;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>ABDULLAH SHEIKH</h1>
+    </header>
+    <main>
+        <article>
+            <p>"Working part-time as a cashier at the Piggly Wiggly has given me a great opportunity to observe human
+                behavior... three distinct types of abnormal customer: the
+                amnesiac, the super shopper, and the dawdler."</p>
+        </article>
+        <hr>
+        <div class="img">
+            <img src="https://resizing.flixster.com/EVRdDY4E9llWcERw2g-AN1oS04U=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/1148978_v9_ba.jpg"
+                alt="My Image" width="400px">
+        </div>
+        <div class="hobby">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Singing</li>
+                <li>Designing</li>
+                <li>Volleyball</li>
+                <li>Fashion and Arts</li>
+                <li>Baking</li>
+                <li>Reading</li>
+            </ul>
+        </div>
+        <section>
+            <h2>Goals</h2>
+            <p>For those who are looking for a difficult writing challenge, the random paragraph generator can provide
+                that as well...</p>
+            <p>The best way to use these random paragraphs is to generate a few and see how they can help...</p>
+            <p>We're always seeking constructive ideas on how we can improve our random paragraph generator...</p>
+        </section>
+        <section>
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>For More Query | fayyazabdullah704@gmail.com</p>
+    </footer>
+</body>
+
+</html>
